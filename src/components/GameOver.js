@@ -1,5 +1,5 @@
 import React, { useContext, useRef } from 'react';
-import { AliensContext } from '../context/context';
+import { JuegoContext } from '../context/context';
 import anime from 'animejs/lib/anime.es.js';
 
 function GameOver() {
@@ -8,7 +8,7 @@ function GameOver() {
 
 	const { 
 		currentScene, assets
- 	} = useContext(AliensContext);
+ 	} = useContext(JuegoContext);
 
 	const startGame = (e) => {
 		window.location.reload();

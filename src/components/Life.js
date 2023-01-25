@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
-import { AliensContext } from '../context/context';
+import { JuegoContext } from '../context/context';
 
 function Life() {
 
-	const { currentLife } = useContext(AliensContext);
+	const { currentLife } = useContext(JuegoContext);
 
 	const fillBars = () => {
 		const bars = [1,2,3,4];

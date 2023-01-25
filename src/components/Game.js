@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from 'react';
-import { AliensContext } from '../context/context';
+import { JuegoContext } from '../context/context';
 import Life from './Life';
 import Points from './Points';
 import ActionKey from './ActionKey';
@@ -14,7 +14,7 @@ function Game() {
 		setIsRunning,
 		setEnemyActive,
 		activePlayers
-	} = useContext(AliensContext);
+	} = useContext(JuegoContext);
 	
 	const isActive = currentScene === 'game' ? 'active': '';
 

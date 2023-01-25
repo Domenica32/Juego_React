@@ -1,12 +1,12 @@
 import React, {useRef, useEffect, useContext} from 'react';
-import { AliensContext } from '../context/context';
+import { JuegoContext } from '../context/context';
 import anime from 'animejs/lib/anime.es.js';
 import laser from '../img/laser.png';
 
 function Laser({id}) {
 
 	const laserRef = useRef(null);
-	const { shoot, setShoot } = useContext(AliensContext);
+	const { shoot, setShoot } = useContext(JuegoContext);
 
 	useEffect(() => {
 		if (shoot.hit && shoot.id === id) {

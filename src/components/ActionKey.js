@@ -1,6 +1,6 @@
 import React, {useRef, useState, useEffect, useContext, Fragment} from 'react';
 import anime from 'animejs/lib/anime.es.js';
-import { AliensContext } from '../context/context';
+import { JuegoContext } from '../context/context';
 import Laser from './Laser';
 
 function ActionKey({id, laserId, image, enemyId, enemyImage}) {
@@ -19,7 +19,7 @@ function ActionKey({id, laserId, image, enemyId, enemyImage}) {
 		currentPoints,
 		setCurrentPoints,
 		setEnemyActive
-	} = useContext(AliensContext);
+	} = useContext(JuegoContext);
 	const [animation, setAnimation] = useState(null);
 	
 	const shootEnemy = (e) => {	

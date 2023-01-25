@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
-import { AliensContext } from '../context/context';
+import { JuegoContext } from '../context/context';
 import log from '../img/logoJuego.png'
 
 function Intro() {
 
-	const { assets, currentScene, setCurrentScene } = useContext(AliensContext);
+	const { assets, currentScene, setCurrentScene } = useContext(JuegoContext);
 
 	const startGame = (e) => {
 		setCurrentScene('game');

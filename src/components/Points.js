@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
-import { AliensContext } from '../context/context';
+import { JuegoContext } from '../context/context';
 
 function Points() {
 
-	const { currentPoints } = useContext(AliensContext);
+	const { currentPoints } = useContext(JuegoContext);
 
   return (
 		<div className="points">

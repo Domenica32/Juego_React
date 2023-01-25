@@ -6,9 +6,9 @@ import basura3 from '../img/basura3.png';
 import basura4 from '../img/basura4.png';
 import logo from '../img/logoJuego.png'
 
-export const AliensContext = createContext();
+export const JuegoContext = createContext();
 
-const AliensProvider = (props) => {
+const JuegoProvider = (props) => {
 
 	const [assets, setAssets] = useState({
 		arbusto,
@@ -33,7 +33,7 @@ const AliensProvider = (props) => {
 		{id: 's4', state: true}]);
 
 	return (
-		<AliensContext.Provider
+		<JuegoContext.Provider
 			value={{
 				assets,
 				setAssets,
@@ -56,8 +56,8 @@ const AliensProvider = (props) => {
 			}}
 		>
 			{props.children}
-		</AliensContext.Provider>
+		</JuegoContext.Provider>
 	)
 }
 
-export default AliensProvider;
+export default JuegoProvider;
