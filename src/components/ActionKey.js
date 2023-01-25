@@ -8,7 +8,7 @@ function ActionKey({id, laserId, image, enemyId, enemyImage}) {
 	const elementRef = useRef(null);
 	const enemyRef = useRef(null);
 	const { 
-		shoot,
+		//shoot,
 		setShoot, 	
 		enemyActive,
 		activePlayers,

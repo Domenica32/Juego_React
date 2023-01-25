@@ -4,7 +4,7 @@ import log from '../img/logoJuego.png'
 
 function Intro() {
 
-	const { assets, currentScene, setCurrentScene } = useContext(JuegoContext);
+	const {  currentScene, setCurrentScene } = useContext(JuegoContext);
 
 	const startGame = (e) => {
 		setCurrentScene('game');
