@@ -17,7 +17,7 @@ function Intro() {
 			<img className="logo" src={log} alt="keyhero" />
 			<div className="instructions">
 			<p>Como jugar:</p>
-			<p>Da click  sobre el arbusto para evitar que la basura caiga al suelo.</p>
+			<p>Da click  sobre el arbusto para evitar que la basura caiga en el.</p>
 			</div>
 			<button className="button" onClick={startGame}>Iniciar</button>
 		</div>
