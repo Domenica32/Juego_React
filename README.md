@@ -1,4 +1,4 @@
-<h1 align="center"> JUEGO RECICLAJE - REACT </h1>
+<h1 align="center"> :deciduous_tree: JUEGO RECICLAJE - :atom_symbol: REACT </h1>
 
 :woman_student:Doménica Rueda
 
@@ -8,7 +8,7 @@
 - [Tecnologías utilizadas](#TECNOLOGÍAS-UTILIZADAS)
 - [Proyecto de referencia](#PROYECTO-DE-REFERENCIA)
 
-## :grey_exclamation:DESCRIPCIÓN DEL PROYECTO
+## :pencil:DESCRIPCIÓN DEL PROYECTO
 
 Este proyecto realizado con el framework de REACT consisitio en desarrollar un juego sobre el tema
 del reciclaje.
@@ -22,13 +22,13 @@ tiene 4 vidas, si los desechos tocan los arbustos pierdes una vida, por tanto si
 ![image](https://user-images.githubusercontent.com/62667937/214688349-343f0bb3-91ba-4f18-8c74-0b07e11a3a33.png)
 
 
-## :hammer:TECNOLOGÍAS UTILIZADAS
+## :electric_plug:TECNOLOGÍAS UTILIZADAS
 
 Para el desarrollo de este proyecto se trabajo con las siguentes herramientas:
 - `IDE`   [Visual Studio Code](https://spring.io/tools).
 - `Framework` [React](https://reactjs.org/docs/getting-started.html).
 
-## :eight_spoked_asterisk:PROYECTO DE REFERENCIA
+## :alien:PROYECTO DE REFERENCIA
 
 - Para realizar el presente proyecto se tomo como guia el siguiente tutorial:
 [AliensTutorial](https://aliensfbdocs.netlify.app/docs/doc1).
